@@ -20,10 +20,12 @@ Preprocessing is a crucial step before feeding data into the models. The followi
 ## Figures
 ### Figure 1: Data Processing Workflow
 ![Data Processing Workflow](https://github.com/akanksha509/Podcast_Sentiment_Analysis/blob/main/figures/Data%20Processing%20Workflow.png)
+
 *Figure 1 outlines the workflow starting with the loading of the datasets. Following this, missing values were eliminated to avoid biases or skewed results. The data was then split into training, validation, and test sets, which is crucial for preventing overfitting and ensuring model generalizability. Once the data was structured, label mapping was applied to translate categorical sentiments into numerical representations.*
 
 ### Figure 2: Model Selection and Evaluation Process
 ![Model Selection Process](https://github.com/akanksha509/Podcast_Sentiment_Analysis/blob/main/figures/Model%20Selection%20Process.png)
+
 *Figure 2 illustrates the comprehensive process of selecting, training, and evaluating both traditional and deep learning models for sentiment analysis in podcasts. The flow begins with the selection of models, distinguishing between traditional machine learning models like Naive Bayes, Linear SVC, SGD Classifier, and Logistic Regression, and deep learning models such as ALBERT and RoBERTa.*
 
 ## Results
