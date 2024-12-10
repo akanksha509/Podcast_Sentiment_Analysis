@@ -76,7 +76,6 @@ The performance of the deep learning models on the MELD dataset is presented bel
 ## Conclusion
 The project successfully demonstrated the effectiveness of transformer-based models, particularly RoBERTa and ALBERT, for sentiment analysis tasks on both conversational and classical text datasets. While traditional models provided a useful baseline, the transformer models showed superior results in handling complex text and improving sentiment classification accuracy.
 
-Future work could involve exploring multi-modal sentiment analysis, where audio and visual data are incorporated, or testing other advanced models for NLP tasks.
 
 
 
