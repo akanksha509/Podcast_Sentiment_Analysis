@@ -22,7 +22,7 @@ The performance of both traditional machine learning models and advanced deep le
 
 ### Shakespeare Podcast Dataset Results
 #### Traditional Machine Learning Models
-The performance metrics of the traditional machine learning models used in the Shakespeare dataset analysis are summarized in Table 2 below. These models include Naive Bayes, Linear SVC, Logistic Regression, and SGD Classifier, evaluated based on accuracy, precision, recall, and F1-score.
+The performance metrics of the traditional machine learning models used in the Shakespeare dataset analysis are summarized in Table below. These models include Naive Bayes, Linear SVC, Logistic Regression, and SGD Classifier, evaluated based on accuracy, precision, recall, and F1-score.
 
 | Models             | Accuracy | Precision | Recall | F1-score |
 |--------------------|----------|-----------|--------|----------|
@@ -58,6 +58,21 @@ The performance of the deep learning models on the MELD dataset is presented bel
 | ALBERT   | 0.6628   | 0.6595    | 0.6628 | 0.6553   |
 | RoBERTa  | 0.6934   | 0.6934    | 0.6952 | 0.7017   |
 
+## ROC Curves
+### For the Shakespeare Dataset:
+- **ALBERT**: High discriminative power with AUC values of 0.95 (positive), 0.85 (neutral), and 0.77 (negative).
+  ![Screenshot 2024-12-10 183744](https://github.com/user-attachments/assets/35113184-e4a8-4890-a8ae-3366e00890f6)
+
+- **RoBERTa**: Outperforms ALBERT with AUC values of 0.99 (positive), 0.93 (neutral), and 0.96 (negative).
+  ![Screenshot 2024-12-10 183823](https://github.com/user-attachments/assets/d6485d19-b6a0-4eb3-9350-e1e4db8d1178)
+
+### For the MELD Dataset:
+- **ALBERT**: Moderate performance with AUC values of 0.83 (positive), 0.86 (neutral), and 0.84 (negative).
+  ![Screenshot 2024-12-10 183754](https://github.com/user-attachments/assets/014ee36a-605d-4b5e-bccb-13383dc2471b)
+  
+- **RoBERTa**: Slightly better with AUC values of 0.84 (positive), 0.82 (neutral), and 0.80 (negative).
+  ![Screenshot 2024-12-10 183834](https://github.com/user-attachments/assets/f7c280e2-1a22-49eb-9b9a-6cc34a3da64c)
+  
 ## Conclusion
 The project successfully demonstrated the effectiveness of transformer-based models, particularly RoBERTa and ALBERT, for sentiment analysis tasks on both conversational and classical text datasets. While traditional models provided a useful baseline, the transformer models showed superior results in handling complex text and improving sentiment classification accuracy.
 
